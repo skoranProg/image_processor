@@ -1,0 +1,34 @@
+add_executable(
+        image_processor
+        image_processor.cpp
+        config.h
+        filters/Filter.h
+        Image/Image.h
+        CLI/cli.h
+        CLI/cli.cpp
+        Pipeline/Pipeline.cpp
+        Pipeline/Pipeline.h
+        Image/Image.cpp
+        Image/bmp/bmp.cpp
+        Image/bmp/bmp.h
+        utils/Matrix.h
+        filters/basic_filters/Crop.cpp
+        filters/basic_filters/Crop.h
+        filters/basic_filters/Grayscale.cpp
+        filters/basic_filters/Grayscale.h
+        filters/basic_filters/Negative.cpp
+        filters/basic_filters/Negative.h
+        filters/basic_filters/basic_filters.h
+        filters/MatrixFilter.h
+        filters/MatrixFilter.cpp
+        filters/basic_filters/Sharpening.cpp
+        filters/basic_filters/Sharpening.h
+        filters/basic_filters/Edge.cpp
+        filters/basic_filters/Edge.h
+        filters/basic_filters/Blur.cpp
+        filters/basic_filters/Blur.h
+        ModuleLoader.cpp
+        ModuleLoader.h
+        filters/basic_filters/OilFilter.cpp
+        filters/basic_filters/OilFilter.h
+)
